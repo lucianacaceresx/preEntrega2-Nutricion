@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="planes.html">Planes</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="iniciarsesion.html">Iniciar Sesión</a></li>
+                <li><a href="miperfil.html"> Mi Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- formulario -->
+        <form action="#">
+            <input type="text" name="nombre" id="nombre" placeholder="Decime tu nombre"><br/>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido"><br/>
+            <input type="number" placeholder="Decime tu edad"><br/>
+            <div>Decime tu peso
+                <select name="lado" id="lado">
+                    <option value="a">-50kg</option>
+                    <option value="ab">+50kg</option>
+                </select>
+            </div>
+            <div> Que plan queres?
+                <div>1<input type="radio" name="uno" value="uno"></div>
+                <div>2<input type="radio" name="dos" value="dos"></div>
+            </div>
+            <div>
+                <input type="submit" value="ENVIAR">
+                <input type="reset" value="BORRAR">
+            </div>
+
+        
+        </form>
+    </main>
+    
+</body>
+</html>
